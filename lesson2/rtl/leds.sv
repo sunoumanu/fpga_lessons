@@ -9,12 +9,12 @@ module leds
 
     logic [26:0] count = 0;
 
-    clk_dbg m_clk_dbg
-    (
-        .clk(clk_100_i),
-        .probe0(count) //27
+    // clk_dbg m_clk_dbg
+    // (
+    //     .clk(clk_100_i),
+    //     .probe0(count) //27
     
-    );
+    // );
 
 
 	always @ (posedge clk_100_i)
